@@ -1,0 +1,25 @@
+[project]
+name="SimpleMonGo"
+version="1.0.0"
+description="Work With MongDb"
+readme ="README.md"
+requires-python = ">=3.12"
+authors = [
+    { name="Esak", email="esak@esak.com" }
+]
+dependencies = [
+    "pymongo >=4.15.5",
+    "PyYAML >= 6.0.3",
+    "fastapi >= 0.127.0",
+    "uvicorn >= 0.24.0",
+    "python-dotenv >= 1.2.1",
+    "uvicorn >= 0.40.0",
+    "SQLAlchemy >= 2.0.45",
+    "alembic >= 1.17.2"
+]
+
+
+[tool.ruff]
+line-length=150
+target-version ="py312"
+exclude = ["temp/*"]
