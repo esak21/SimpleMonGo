@@ -13,7 +13,9 @@ dependencies = [
     "fastapi >= 0.127.0",
     "uvicorn >= 0.24.0",
     "python-dotenv >= 1.2.1",
-    "uvicorn >= 0.40.0"
+    "uvicorn >= 0.40.0",
+    "SQLAlchemy >= 2.0.45",
+    "alembic >= 1.17.2"
 ]
 
 
